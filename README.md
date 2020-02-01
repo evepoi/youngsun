@@ -9,3 +9,5 @@
 
 ### 2020.1.26
 - 메인페이지 재구성
+
+[이하 변경기록 자료 확인](https://github.com/evepoi/youngsun/blob/master/%EB%B3%80%EA%B2%BD%EB%A1%9C%EA%B7%B8.md)
