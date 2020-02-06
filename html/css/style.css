@@ -13,7 +13,7 @@
 #footer {height: 300px;}
 
 /*컨테이너*/
-.container {width: 1000px; margin: 0 auto; height: inherit; background: rgba(255,255,255,0.3)}
+.container {width: 1200px; margin: 0 auto; height: inherit; background: rgba(255,255,255,0.3)}
 
 /* 헤더*/
 .header_menu {float: right; text-align: right; font-size: 12px;}
@@ -27,16 +27,16 @@
 /*홈 특강영상페이지*/
 .contents {overflow: hidden;}
 .contents > div {float: left; width: 50%;}
-.contents .con_you {}
-.contents .con_you h2 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
-.contents .con_you .tube {text-align: center; width: 500px; height: 800px;}
-.contents .con_you .tube .you1 {width: 500px; height: 320px;}
-.contents .con_you .tube .you2 {width: 500px; height: 320px;}
+.contents .con_you {text-align: center;}
+.contents .con_you h2 {margin-top: 20px; margin-bottom: 20px;}
+.contents .con_you .tube {width: 500px; height: 800px;}
+.contents .con_you .tube .you1 {width: 600px; height: 320px;}
+.contents .con_you .tube .you2 {width: 600px; height: 320px;}
 .contents .con_you .tube a {width: 200px; height: 100px; display: inline-block; background: url(../img/youtube.png)}
-.contents .con_you .tube h3 {text-align: center;}
+.contents .con_you .tube h3 {}
 .contents .con_exh {}
 .contents .con_exh h2 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
-.contents .con_exh a {width: 500px; height: 750px; display: inline-block; background: url(../img/exh_2016_12.jpg)}
+.contents .con_exh a {text-align: center; width: 500px; height: 750px; display: inline-block; background: url(../img/exh_2016_12.jpg)}
 
 /*홈 전시일정 페이지*/
 .con_exh {text-align: center; width: 1000px; height: 750px; margin-top: 30px; margin-bottom: 30px;}
@@ -72,6 +72,13 @@
 .con_exhp .con_exhl .exhl14 {height: 10%;}
 .con_exhp .con_exhl .exhl15 {height: 10%;}
 .con_exhp .con_exhl .exhl16 {height: 10%;}
+
+/* 작품 페이지*/
+.art_left {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
+.art_left .art {width: 400px; height: 400px;}
+.art_left h3 {margin-bottom: 10px;}
+.art_center {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
+.art_right {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
 
 /* 하단내용*/
 .footer {}
