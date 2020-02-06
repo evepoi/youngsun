@@ -74,11 +74,11 @@
 .con_exhp .con_exhl .exhl16 {height: 10%;}
 
 /* 작품 페이지*/
-.art_left {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
+.art_left {float: left; text-align: center; width:400px; height: 1700px; margin-top: 30px;}
 .art_left .art {width: 400px; height: 400px;}
 .art_left h3 {margin-bottom: 10px;}
-.art_center {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
-.art_right {float: left; text-align: center; width:400px; height: 1000px; margin-top: 30px;}
+.art_center {float: left; text-align: center; width:400px; height: 1700px; margin-top: 30px;}
+.art_right {float: left; text-align: center; width:400px; height: 1700px; margin-top: 30px;}
 
 /* 하단내용*/
 .footer {}
