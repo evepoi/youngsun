@@ -74,11 +74,11 @@
 .con_exhp .con_exhl .exhl16 {height: 10%;}
 
 /* 작품 페이지*/
-.art_left {float: left; text-align: center; width:400px; height: 50000px; padding: 0 0 0 5px; margin-top: 30px;}
+.art_left {float: left; text-align: center; width:400px; height: 33300px; padding: 0 0 0 5px; margin-top: 30px;}
 .art_left .art1 {width: 400px; height: 400px;}
 .art_left .art7 {width: 400px; height: 400px; margin-top: 20px;}
 .art_left h3 {margin-bottom: 30px;}
-.art_center {float: left; text-align: center; width:400px; height: 50000px; padding: 0 5px 0 5px; margin-top: 30px;}
+.art_center {float: left; text-align: center; width:400px; height: 33300px; padding: 0 5px 0 5px; margin-top: 30px;}
 .art_center .art1 {width: 400px; height: 400px;}
 .art_center .art2 {width: 400px; height: 400px; margin-top: 1970px;}
 .art_center .art3 {width: 400px; height: 400px; margin-top: 510px;}
@@ -95,7 +95,7 @@
 .art_center .art24 {width: 400px; height: 400px; margin-top: 1970px;}
 .art_center .art26 {width: 400px; height: 400px; margin-top: 485px;}
 .art_center h3 {margin-bottom: 30px;}
-.art_right {float: left; text-align: center; width:400px; height: 50000px; padding: 0 5px 0 0; margin-top: 30px;}
+.art_right {float: left; text-align: center; width:400px; height: 33300px; padding: 0 5px 0 0; margin-top: 30px;}
 .art_right .art1 {width: 400px; height: 400px;}
 .art_right .art6 {width: 400px; height: 400px; margin-top: 3910px;}
 .art_right .art9 {width: 400px; height: 400px; margin-top: 0px;}
