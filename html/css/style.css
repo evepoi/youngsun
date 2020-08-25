@@ -7,111 +7,11 @@
 #skip a:focus {top:0; } */
 
 /* 레이아웃*/
+#header {}
+
+/* 컨테이너*/
+.container {width: 1200px; margin: 0 auto; background-color: #fff;}
 
 /* 헤더*/
-.header {float: left; text-align: left; width: 1220px; height: 66px;}
 .header a {width: 166px; height: 66px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
 .header a.logo {background-position: 0 0;}
-
-#wrap {height: 1066px; margin:0 auto;}
-.header {height: 82px;}
-#contents {}
-#footer {height: 300px;}
-
-/*컨테이너*/
-.container {width: 1220px; height: inherit; background: rgba(255,255,255,0.3)}
-
-
-.header_menu {float: left; text-align: left; width: 1220px; font-size: 12px;}
-.header_menu a {color: #000; padding: 50px 10px 10px 10px; display: inline-block;}
-.header_menu a:hover {color:#666;}
-
-/*홈 특강영상페이지*/
-.contents {overflow: hidden;}
-.contents > div {float: left; width: 50%;}
-.contents .con_you {text-align: center;}
-.contents .con_you h2 {margin-top: 20px; margin-bottom: 20px;}
-.contents .con_you .tube {width: 500px; height: 800px;}
-.contents .con_you .tube .you1 {width: 600px; height: 320px;}
-.contents .con_you .tube .you2 {width: 600px; height: 320px;}
-.contents .con_you .tube a {width: 200px; height: 100px; display: inline-block; background: url(../img/youtube.png)}
-.contents .con_you .tube h3 {}
-.contents .con_exh {}
-.contents .con_exh h2 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
-.contents .con_exh a {text-align: center; width: 500px; height: 750px; display: inline-block; background: url(../img/exh_2016_12.jpg)}
-
-/*홈 전시일정 페이지*/
-.con_exh {text-align: center; width: 1000px; height: 750px; margin-top: 30px; margin-bottom: 30px;}
-
-/* 특강자료 페이지*/
-.youtube {text-align: center; }
-.youtube h2 {margin-top: 20px; margin-bottom: 20px;}
-.youtube a {width: 200px; height: 100px; display: inline-block; background: url(../img/youtube.png)}
-.youtube h3 {margin-bottom: 20px;}
-.youtube .tube1 {width: 900px; height: 506px;}
-.youtube .tube2 {width: 900px; height: 506px;}
-
-/* 전시일정 페이지*/
-.con_exhp {text-align: center; width: 1000px; height: 2400px; margin-top: 30px; margin-bottom: 30px;}
-.con_exhp .con_exhn {width: 1000px; height: 750px;}
-.con_exhp .con_exhn h2 {text-align: center;}
-.con_exhp .con_exhn a {width: 500px; height: 750px; display: inline-block; background: url(../img/exh_2016_12.jpg)}
-.con_exhp .con_exhl {height: 3000px; margin-top: 30px;}
-.con_exhp .con_exhl h2 {margin-bottom: 30px;}
-.con_exhp .con_exhl .exhl1 {height: 10%;}
-.con_exhp .con_exhl .exhl2 {height: 10%;}
-.con_exhp .con_exhl .exhl3 {height: 10%;}
-.con_exhp .con_exhl .exhl4 {height: 10%;}
-.con_exhp .con_exhl .exhl5 {height: 10%;}
-.con_exhp .con_exhl .exhl6 {height: 10%;}
-.con_exhp .con_exhl .exhl7 {height: 10%;}
-.con_exhp .con_exhl .exhl8 {height: 10%;}
-.con_exhp .con_exhl .exhl9 {height: 10%;}
-.con_exhp .con_exhl .exhl10 {height: 10%;}
-.con_exhp .con_exhl .exhl11 {height: 10%;}
-.con_exhp .con_exhl .exhl12 {height: 10%;}
-.con_exhp .con_exhl .exhl13 {height: 10%;}
-.con_exhp .con_exhl .exhl14 {height: 10%;}
-.con_exhp .con_exhl .exhl15 {height: 10%;}
-.con_exhp .con_exhl .exhl16 {height: 10%;}
-
-/* 작품 페이지*/
-.art_left {float: left; text-align: center; width:400px; height: 33300px; padding: 0 0 0 5px; margin-top: 30px;}
-.art_left .art1 {width: 400px; height: 400px;}
-.art_left .art7 {width: 400px; height: 400px; margin-top: 20px;}
-.art_left h3 {margin-bottom: 30px;}
-.art_center {float: left; text-align: center; width:400px; height: 33300px; padding: 0 5px 0 5px; margin-top: 30px;}
-.art_center .art1 {width: 400px; height: 400px;}
-.art_center .art2 {width: 400px; height: 400px; margin-top: 1970px;}
-.art_center .art3 {width: 400px; height: 400px; margin-top: 510px;}
-.art_center .art4 {width: 400px; height: 400px; margin-top: 30px;}
-.art_center .art5 {width: 400px; height: 400px; margin-top: 30px;}
-.art_center .art8 {width: 400px; height: 400px; margin-top: 20px;}
-.art_center .art10 {width: 400px; height: 400px; margin-top: 30px;}
-.art_center .art12 {width: 400px; height: 400px; margin-top: 510px;}
-.art_center .art14 {width: 400px; height: 400px; margin-top: 2460px;}
-.art_center .art16 {width: 400px; height: 400px; margin-top: 486px;}
-.art_center .art18 {width: 400px; height: 400px; margin-top: 26px;}
-.art_center .art20 {width: 400px; height: 400px; margin-top: 28px;}
-.art_center .art22 {width: 400px; height: 400px; margin-top: 517px;}
-.art_center .art24 {width: 400px; height: 400px; margin-top: 1970px;}
-.art_center .art26 {width: 400px; height: 400px; margin-top: 485px;}
-.art_center h3 {margin-bottom: 30px;}
-.art_right {float: left; text-align: center; width:400px; height: 33300px; padding: 0 5px 0 0; margin-top: 30px;}
-.art_right .art1 {width: 400px; height: 400px;}
-.art_right .art6 {width: 400px; height: 400px; margin-top: 3910px;}
-.art_right .art9 {width: 400px; height: 400px; margin-top: 0px;}
-.art_right .art11 {width: 400px; height: 400px; margin-top: 30px;}
-.art_right .art13 {width: 400px; height: 400px; margin-top: 510px;}
-.art_right .art15 {width: 400px; height: 400px; margin-top: 2910px;}
-.art_right .art17 {width: 400px; height: 400px; margin-top: 490px;}
-.art_right .art19 {width: 400px; height: 400px; margin-top: 480px;}
-.art_right .art21 {width: 400px; height: 400px; margin-top: 30px;}
-.art_right .art23 {width: 400px; height: 400px; margin-top: 519px;}
-.art_right .art25 {width: 400px; height: 400px; margin-top: 2425px;}
-.art_right .art27 {width: 400px; height: 400px; margin-top: 485px;}
-.art_right h3 {margin-bottom: 30px;}
-
-/* 하단내용*/
-.footer {}
-.footer h3 {text-align: center;}
