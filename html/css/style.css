@@ -15,3 +15,8 @@
 /* 헤더*/
 .header a {width: 166px; height: 66px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
 .header a.logo {background-position: 0 0;}
+
+/* mediaquery */
+@media (max-width: 1220px) {
+    .container {width: 100%;}
+}
