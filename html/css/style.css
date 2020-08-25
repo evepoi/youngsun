@@ -8,7 +8,7 @@
 
 /* 레이아웃*/
 #wrap {height: 1066px; margin:0 auto;}
-#header {height: 82px;}
+.header {height: 82px;}
 #contents {}
 #footer {height: 300px;}
 
