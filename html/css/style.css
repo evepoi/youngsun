@@ -9,7 +9,7 @@
 /* 레이아웃*/
 
 /* 헤더*/
-.header {float: left; text-align: left; width: 1220px;}
+.header {float: left; text-align: left; width: 1220px; height: 66px;}
 .header a {width: 166px; height: 66px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
 .header a.logo {background-position: 0 0;}
 
