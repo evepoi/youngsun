@@ -18,7 +18,7 @@
 
 /* 전체메뉴*/
 .nav {overflow: hidden; padding: 25px 0;}
-.nav a {font-size: 30px;}
+.nav a {padding: 8px 0 6px 0; font-size: 30px;}
 
 /* mediaquery */
 @media (max-width: 1220px) {
