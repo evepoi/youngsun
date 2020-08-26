@@ -98,7 +98,7 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-모바일 0 ~ 480px */
 @media (max-width: 480px) {
-    .header a {width: 100%; height: auto;}
+    .header a {width: 100%; height: auto; background: url(../img/youngsungallery_logo.jpeg)}
     .nav > div li {width: 100%;}
 }
 
