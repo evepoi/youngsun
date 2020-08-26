@@ -11,6 +11,13 @@
     <!--웹폰트-->
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     
+    <!-- HTLM5shiv ie6~8 -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script type="text/javascript">
+            alert("현재 당신이 보는 브라우저는 지원하지 않습니다. 최신 브라우저로 업데이트해주세요!");
+        </script>
+    <![endif]-->
 </head>
 <body>
     <!-- 스킵 내비게이션 -->
@@ -62,16 +69,17 @@
         </div>
         <!--//메인내용-->
      
-        <div id="footer">
-            <div class="container">
-                <div class="footer">
-                    <h3>사이트 제작 : 민은갤러리 <br>
-                    관리자 : 민은갤러리</h3>
-                </div>
-            </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <h2>사이트 제작＆관리 : 민은갤러리 / <a href="https://github.com/evepoi/youngsun/blob/master/change%20log.md">변경기록</a></h2>
+            </div>            
         </div>
-        <!--//하단내용-->
-        
-    </div>
+    </footer>
+    <!-- // footer-->
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/modernizr-custom.js"></script>
 </body>
 </html>
