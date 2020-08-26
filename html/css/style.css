@@ -11,11 +11,11 @@
 #contents {}
 #con_top {width: 1200px; height: 500px; background: #bbb;}
 #con_left {float: left; width: 600px; height: 500px; background: #ccc;}
-#con_right {position: absolute; right: 0; top: 500px; width: 600px; height: 500px; background: #ddd;}
+#con_right {float: left; right: 0; top: 500px; width: 600px; height: 500px; background: #ddd;}
 #footer {}
 
 /* 컨테이너*/
-.container {position: relative; width: 1200px; margin: 0 auto; background-color: #fff;}
+.container {width: 1200px; margin: 0 auto; background-color: #fff;}
 
 /* 헤더*/
 .header a {width: 400px; height: 163px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
