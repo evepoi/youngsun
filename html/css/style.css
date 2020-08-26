@@ -9,7 +9,7 @@
 /* 레이아웃*/
 #header {}
 #contents {}
-#con_top {width: 1200px; height: 500px;}
+#con_top {width: 1200px; height: 530px;}
 #con_left {float: left; width: 600px; height: 500px; background: #ccc;}
 #con_right {float: left; right: 0; top: 500px; width: 600px; height: 500px; background: #ddd;}
 #footer {}
@@ -35,6 +35,7 @@
 .column.col2 h4 {font-size: 30px;}
 .column.col3 {}
 .column.col3 h4 {font-size: 30px;}
+.column.col3 h5 {font-size: 15px;}
 .column.col4 {}
 .column.col4 h4 {font-size: 30px;}
 .column.col5 {}
