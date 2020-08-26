@@ -75,12 +75,12 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-테블릿 0 ~ 600px */
 @media (max-width: 600px) {
-    .column.col2 iframe {width: 480px;height: 250px;}
+    .column.col2 iframe {width: 400px;height: 200px;} 
 }
 
 /* 화면 너비-모바일 0 ~ 480px */
 @media (max-width: 480px) {
-
+    .column.col2 iframe {width: 480px;height: 250px;}
 }
 
 /* 화면 너비-모바일 0 ~ 320px */
