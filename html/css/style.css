@@ -49,8 +49,8 @@
 
 /* 하단내용*/
 .footer {text-align: center;}
-.footer h2 {font-size: 30px;}
-.footer a {font-size: 30px;}
+.footer h2 {float: left; font-size: 20px;}
+.footer a {font-size: 20px;}
 
 /* mediaquery */
 @media (max-width: 1220px) {
