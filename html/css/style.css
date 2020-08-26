@@ -9,7 +9,7 @@
 /* 레이아웃*/
 #header {}
 #contents {}
-#con_top {width: 1200px; height: 500px;}
+#con_top {width: 1200px; height: 800px;}
 #con_left {float: left; width: 600px; height: 500px; background: #ccc;}
 #con_right {float: left; right: 0; top: 500px; width: 600px; height: 500px; background: #ddd;}
 #footer {}
