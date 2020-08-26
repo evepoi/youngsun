@@ -44,11 +44,8 @@
 .column.col7 {}
 .column.col7 h4 {font-size: 30px;}
 .column.col8 {}
-.column.col8 h4 {font-size: 30px;}
 .column.col9 {}
 .column.col9 h4 {font-size: 30px;}
-.column.col10 {}
-.column.col10 h4 {font-size: 30px;}
 
 /* mediaquery */
 @media (max-width: 1220px) {
