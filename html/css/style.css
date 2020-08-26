@@ -9,11 +9,13 @@
 /* 레이아웃*/
 #header {}
 #contents {}
-#cont {}
+#cont_top {height: 500px;background: #bbb;}
+#con_left {float: left; width: 250px; height: 1000px; background: #ccc;}
+#con_right {position: absolute; right: 0; top: 0; width: 250px; height: 1000px; background: #ddd;}
 #footer {}
 
 /* 컨테이너*/
-.container {width: 1200px; margin: 0 auto; background-color: #fff;}
+.container {position: relative; width: 1200px; margin: 0 auto; background-color: #fff;}
 
 /* 헤더*/
 .header a {width: 400px; height: 163px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
