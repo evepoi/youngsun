@@ -85,7 +85,7 @@ footer {clear: both; width: 100%; height: 25px;}
 /* 화면 너비-모바일 0 ~ 480px */
 @media (max-width: 480px) {
     .nav > div li {width: 100%;}
-    #con_top {height: 220px;}
+    #con_top {height: 300px;}
     .column.col2 iframe {width: 250px;height: 150px;}
     .column.col5 img {width: 90%; height: 90%;}
     .column.col8 img {width: 90%; height: 90%;}
