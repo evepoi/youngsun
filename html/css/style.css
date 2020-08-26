@@ -62,6 +62,8 @@ footer {clear: both; width: 100%; height: 25px;}
 @media (max-width: 1024px) {
     #con_left {float: none; width: 100%; text-align: center;}
     #con_right {float: none; width: 100%; text-align: center;}
+    .column.col5 img {width: 100%; height: 100%;}
+    .column.col8 img {width: 100%; height: 100%;}
 }
 
 /* 화면 너비-테블릿 0 ~ 960px */
@@ -76,8 +78,6 @@ footer {clear: both; width: 100%; height: 25px;}
     #con_left {float: none; height: 8%;}
     #con_right {float: none; height: 8%;}
     .column.col2 iframe {width: 550px; height: 330px;}
-    .column.col5 img {width: 100%; height: 100%;}
-    .column.col8 img {width: 100%; height: 100%;}
 }
 
 /* 화면 너비-테블릿 0 ~ 600px */
