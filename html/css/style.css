@@ -60,7 +60,7 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비 0 ~ 1024px */
 @media (max-width: 1024px) {
-    #con_left {float: none; width: 100%; text-align: center;}
+    #con_left {float: none; width: 100%; height: 110%;text-align: center;}
     #con_right {float: none; width: 100%; text-align: center;}
     .column.col5 img {width: 100%; height: 100%;}
     .column.col8 img {width: 100%; height: 100%;}
@@ -75,8 +75,6 @@ footer {clear: both; width: 100%; height: 25px;}
 @media (max-width: 768px) {
     .nav > div li {width: 48%; margin: 1%;}
     #con_top {height: 500px;}
-    #con_left {float: none; height: 8%;}
-    #con_right {float: none; height: 8%;}
     .column.col2 iframe {width: 550px; height: 330px;}
 }
 
