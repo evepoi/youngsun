@@ -24,8 +24,10 @@
 /* 전체메뉴*/
 .nav {overflow: hidden; padding: 25px 0;}
 .nav > div {text-align: center;}
-.nav > div a {padding: 0 30px 0 30px; display: inline-block; transition: color 0.5s ease; font-size: 30px;}
+.nav > div a {padding: 0 30px 0 30px; display: inline-block; transition: color 0.5s ease; font-size: 40px;}
 .nav > div a:hover {color:#827717;}
+
+/* 컨텐츠*/
 
 /* mediaquery */
 @media (max-width: 1220px) {
