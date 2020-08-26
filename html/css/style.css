@@ -71,6 +71,7 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-테블릿 0 ~ 768px */
 @media (max-width: 768px) {
+    .nav > div li {float: none; width: 48%;}
     .column.col2 iframe {width: 550px;height: 330px;}
 }
 
@@ -87,6 +88,5 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-모바일 0 ~ 320px */
 @media (max-width: 320px) {
-    .nav > div li {float: none; width: 100%;}
     .column.col2 iframe {width: 250px;height: 150px;}
 }
