@@ -15,7 +15,7 @@
 #footer {overflow: hidden; width: 1200px; height: 200px; background: #ccc;}
 
 /* 컨테이너*/
-.container {width: 1200px; margin: 0 auto; background-color: #fff;}
+.container {width: 1200px; margin: 0 auto; background-color: #ddd;}
 
 /* 헤더*/
 .header a {width: 400px; height: 163px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
