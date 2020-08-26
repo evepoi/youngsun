@@ -13,7 +13,7 @@
 .container {width: 1200px; margin: 0 auto; background-color: #fff;}
 
 /* 헤더*/
-.header a {width: 166px; height: 66px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
+.header a {width: 400px; height: 163px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
 .header a.logo {background-position: 0 0;}
 
 /* mediaquery */
