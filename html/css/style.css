@@ -12,7 +12,7 @@
 #con_top {width: 1200px; height: 530px;}
 #con_left {float: left; width: 600px; height: 630px;}
 #con_right {float: left; width: 600px; height: 630px;}
-#footer {width: 1200px; height: 200px; }
+#footer {overflow: hidden; width: 1200px; height: 200px; }
 
 /* 컨테이너*/
 .container {width: 1200px; margin: 0 auto; background-color: #fff;}
