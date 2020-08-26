@@ -23,7 +23,6 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 헤더*/
 .header a {width: 400px; height: 163px;}
-.header a.logo {background-position: 0 0;}
 
 /* 전체메뉴*/
 .nav {overflow: hidden; padding: 25px 0;}
@@ -98,8 +97,7 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-모바일 0 ~ 480px */
 @media (max-width: 480px) {
-    .header a {width: 100%; height: auto; background: url(../img/youngsungallery_logo.jpeg)}
-    .header a.logo {background-position: 0 0;}
+    .header a img {width: 100%; height: auto;}
     .nav > div li {width: 100%;}
 }
 
