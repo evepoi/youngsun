@@ -28,6 +28,17 @@
 .nav > div a:hover {color:#827717;}
 
 /* 컨텐츠*/
+.column {text-align: center;}
+.column.col1 {}
+.column.col2 {}
+.column.col3 {}
+.column.col4 {}
+.column.col5 {}
+.column.col6 {}
+.column.col7 {}
+.column.col8 {}
+.column.col9 {}
+.column.col10 {}
 
 /* mediaquery */
 @media (max-width: 1220px) {
