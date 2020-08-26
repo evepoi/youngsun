@@ -9,7 +9,11 @@
 /* 레이아웃*/
 #header {}
 #contents {}
-#con_top {width: 100%; height: 530px;}
+#con_top {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;    
+}
 #con_left {float: left; width: 50%; height: 630px;}
 #con_right {float: left; width: 50%; height: 630px;}
 footer {clear: both; width: 100%; height: 25px;}
@@ -32,7 +36,20 @@ footer {clear: both; width: 100%; height: 25px;}
 .column {text-align: center;}
 .column.col1 {}
 .column.col1 h4 {font-size: 30px;}
-.column.col2 {}
+.column.col2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+}
+.column.col2 iframe {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .column.col2 h4 {font-size: 30px;}
 .column.col3 {}
 .column.col3 h4 {font-size: 30px;}
@@ -66,32 +83,27 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비-테블릿 0 ~ 960px */
 @media (max-width: 960px) {
-    .column.col2 iframe {width: 650px;height: 400px;}
 }
 
 /* 화면 너비-테블릿 0 ~ 768px */
 @media (max-width: 768px) {
     .nav > div li {width: 48%; margin: 1%;}
     #con_top {height: 500px;}
-    .column.col2 iframe {width: 550px; height: 330px;}
 }
 
 /* 화면 너비-테블릿 0 ~ 600px */
 @media (max-width: 600px) {
     #con_top {height: 370px;}
-    .column.col2 iframe {width: 400px; height: 200px;}
 }
 
 /* 화면 너비-모바일 0 ~ 480px */
 @media (max-width: 480px) {
     .nav > div li {width: 100%;}
     #con_top {height: 300px;}
-    .column.col2 iframe {width: 250px;height: 150px;}
     .column.col5 img {width: 100%; height: 100%;}
     .column.col8 img {width: 100%; height: 100%;}
 }
 
 /* 화면 너비-모바일 0 ~ 320px */
 @media (max-width: 320px) {
-    .column.col2 iframe {width: 250px;height: 150px;}
 }
