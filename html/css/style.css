@@ -12,10 +12,10 @@
 #con_top {width: 1200px; height: 530px;}
 #con_left {float: left; width: 600px; height: 630px;}
 #con_right {float: left; width: 600px; height: 630px;}
-footer {clear: both; width: 100%; height: 200px; background: #ccc;}
+footer {clear: both; width: 100%; height: 200px;}
 
 /* 컨테이너*/
-.container {width: 1200px; margin: 0 auto; background-color: #ddd;}
+.container {width: 1200px; margin: 0 auto;}
 
 /* 헤더*/
 .header a {width: 400px; height: 163px; display: inline-block; background: url(../img/youngsungallery_logo.jpeg)}
