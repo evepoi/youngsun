@@ -8,6 +8,9 @@
 
 /* 레이아웃*/
 #header {}
+#contents {}
+#cont {}
+#footer {}
 
 /* 컨테이너*/
 .container {width: 1200px; margin: 0 auto; background-color: #fff;}
