@@ -59,8 +59,8 @@ footer {clear: both; width: 100%; height: 25px;}
 
 /* 화면 너비 0 ~ 1024px */
 @media (max-width: 1024px) {
-    #con_left {float: none; width: 100%;}
-    #con_right {float: none; width: 100%;}
+    #con_left {float: none; width: 100%; text-align: center;}
+    #con_right {float: none; width: 100%; text-align: center;}
 }
 
 /* 화면 너비-테블릿 0 ~ 960px */
