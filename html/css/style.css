@@ -10,8 +10,8 @@
 #header {}
 #contents {}
 #con_top {width: 1200px; height: 530px;}
-#con_left {float: left; width: 600px; height: 630px;}
-#con_right {float: left; width: 600px; height: 630px;}
+#con_left {float: left; width: 50%; height: 630px;}
+#con_right {float: left; width: 50%; height: 630px;}
 footer {clear: both; width: 100%; height: 25px;}
 
 /* 컨테이너*/
