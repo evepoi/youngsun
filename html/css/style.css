@@ -10,8 +10,8 @@
 #header {}
 #contents {}
 #con_top {width: 1200px; height: 530px;}
-#con_left {float: left; width: 600px; height: 650px; background: #ccc;}
-#con_right {float: left; width: 600px; height: 650px; background: #ddd;}
+#con_left {float: left; width: 600px; height: 630px;}
+#con_right {float: left; width: 600px; height: 630px;}
 #footer {}
 
 /* 컨테이너*/
