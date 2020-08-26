@@ -30,25 +30,25 @@
 /* 컨텐츠*/
 .column {text-align: center; }
 .column.col1 {}
-.column.col1 h {font-size: 30px;}
+.column.col1 h4 {font-size: 30px;}
 .column.col2 {}
-.column.col2 h {font-size: 30px;}
+.column.col2 h4 {font-size: 30px;}
 .column.col3 {}
-.column.col3 h {font-size: 30px;}
+.column.col3 h4 {font-size: 30px;}
 .column.col4 {}
-.column.col4 h {font-size: 30px;}
+.column.col4 h4 {font-size: 30px;}
 .column.col5 {}
-.column.col5 h {font-size: 30px;}
+.column.col5 h4 {font-size: 30px;}
 .column.col6 {}
-.column.col6 h {font-size: 30px;}
+.column.col6 h4 {font-size: 30px;}
 .column.col7 {}
-.column.col7 h {font-size: 30px;}
+.column.col7 h4 {font-size: 30px;}
 .column.col8 {}
-.column.col8 h {font-size: 30px;}
+.column.col8 h4 {font-size: 30px;}
 .column.col9 {}
-.column.col9 h {font-size: 30px;}
+.column.col9 h4 {font-size: 30px;}
 .column.col10 {}
-.column.col10 h {font-size: 30px;}
+.column.col10 h4 {font-size: 30px;}
 
 /* mediaquery */
 @media (max-width: 1220px) {
