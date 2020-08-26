@@ -94,5 +94,6 @@ footer {clear: both; width: 100%; height: 25px;}
 /* 화면 너비-모바일 0 ~ 320px */
 @media (max-width: 320px) {
     .column.col2 iframe {width: 250px;height: 150px;}
-    #con_left {height: 50px;}
+    #con_left {float: none; height: 50px;}
+    #con_right {float: none; height: 50px;}
 }
