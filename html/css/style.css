@@ -28,7 +28,7 @@
 .nav > div a:hover {color:#827717;}
 
 /* 컨텐츠*/
-.column {text-align: center;}
+.column {text-align: center; font-size: 30px;}
 .column.col1 {}
 .column.col2 {}
 .column.col3 {}
