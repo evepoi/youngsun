@@ -12,7 +12,7 @@
 #con_top {width: 1200px; height: 530px;}
 #con_left {float: left; width: 600px; height: 630px;}
 #con_right {float: left; width: 600px; height: 630px;}
-#footer {overflow: hidden; width: 1200px; height: 200px; }
+#footer { width: 1200px; height: 200px; }
 
 /* 컨테이너*/
 .container {width: 1200px; margin: 0 auto; background-color: #fff;}
@@ -48,7 +48,7 @@
 .column.col9 h4 {font-size: 30px;}
 
 /* 하단내용*/
-.footer {}
+.footer {overflow: hidden;}
 .footer h2 {text-align: center; font-size: 20px;}
 
 /* mediaquery */
