@@ -61,26 +61,23 @@
 
         <div id="contents">
             <div class="container">
-<!-- * 카카오맵 - 지도퍼가기 -->
-<!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1598459636625" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-
-<!--
-	2. 설치 스크립트
-	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
--->
-<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-
-<!-- 3. 실행 스크립트 -->
-<script charset="UTF-8">
-	new daum.roughmap.Lander({
-		"timestamp" : "1598459636625",
-		"key" : "2zsee",
-		"mapWidth" : "1200",
-		"mapHeight" : "600"
-	}).render();
-</script>
-
+                <div class="row">
+                    <!-- * 카카오맵 - 지도퍼가기 -->
+                    <!-- 1. 지도 노드 -->
+                    <div id="daumRoughmapContainer1598459636625" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                    <!-- 2. 설치 스크립트
+	                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.-->
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                        "timestamp" : "1598459636625",
+                        "key" : "2zsee",
+                        "mapWidth" : "1200",
+                        "mapHeight" : "600"
+                        }).render();
+                    </script>
+                </div>
                 <text>주소 : 경기 수원시 영통구 덕영대로 1471번길 59, 2층<br>
                 전화번호 : 031-203-1089</text>
             </div>
