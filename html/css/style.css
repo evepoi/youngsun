@@ -34,8 +34,9 @@ footer {clear: both; width: 100%; height: 25px;}
 /* 컨텐츠 - index.html*/
 .column {text-align: center;}
 .column.col1 {}
-.column.col1 h4 {font-size: 30px;}
-.column.col2 {
+.column.col2 {}
+.column.col2 h4 {font-size: 30px;}
+.column.col3 {
     position: relative;
     width: 100%;
     max-width: 900px;
@@ -43,7 +44,7 @@ footer {clear: both; width: 100%; height: 25px;}
     margin: 30px auto;
     padding-top: 50%;
 }
-.column.col2 iframe {
+.column.col3 iframe {
     z-index: 1;
     top: 0;
     left: 0;
@@ -51,20 +52,20 @@ footer {clear: both; width: 100%; height: 25px;}
     width: 100%;
     height: 100%;
 }
-.column.col2 h4 {font-size: 30px;}
-.column.col3 {}
 .column.col3 h4 {font-size: 30px;}
-.column.col3 h5 {font-size: 15px;}
 .column.col4 {}
 .column.col4 h4 {font-size: 30px;}
+.column.col4 h5 {font-size: 15px;}
 .column.col5 {}
+.column.col5 h4 {font-size: 30px;}
 .column.col6 {}
-.column.col6 h4 {font-size: 30px;}
 .column.col7 {}
 .column.col7 h4 {font-size: 30px;}
 .column.col8 {}
+.column.col8 h4 {font-size: 30px;}
 .column.col9 {}
-.column.col9 h4 {font-size: 30px;}
+.column.col10 {}
+.column.col10 h4 {font-size: 30px;}
 
 /* 컨텐츠 - youtube.html*/
 .youtube {
