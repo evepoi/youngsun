@@ -16,7 +16,7 @@
 }
 #con_left {float: left; width: 50%; height: 630px;}
 #con_right {float: left; width: 50%; height: 630px;}
-footer {clear: both; width: 100%; height: 25px;}
+#footer {clear: both; width: 100%; height: 25px;}
 
 /* 컨테이너*/
 .container {width: 1200px; margin: 0 auto;}
