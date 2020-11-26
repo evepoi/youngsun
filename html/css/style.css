@@ -9,7 +9,7 @@
 /* 레이아웃-index.html*/
 #header {}
 #contents {}
-#con_top {
+#con_bot {
     width: 100%;
     max-width: 900px;
     margin: 30px auto;    
