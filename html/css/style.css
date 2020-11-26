@@ -114,8 +114,8 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 /* 화면 너비-테블릿 0 ~ 520px */
 @media (max-width: 520px) {
+    .column.col4 img {width: 100%; height: auto;}
     .column.col5 img {width: 100%; height: auto;}
-    .column.col8 img {width: 100%; height: auto;}
 }
 
 /* 화면 너비-모바일 0 ~ 480px */
