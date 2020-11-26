@@ -97,6 +97,8 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 /* 화면 너비 0 ~ 1024px */
 @media (max-width: 1024px) {
+    #con_topleft {float: none; width: 100%; height: auto; text-align: center;}
+    #con_topright {float: none; width: 100%; height: auto; text-align: center;}
     #con_left {float: none; width: 100%; height: auto; text-align: center;}
     #con_right {float: none; width: 100%; height: auto; text-align: center;}
 }
