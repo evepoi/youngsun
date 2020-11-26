@@ -9,6 +9,8 @@
 /* 레이아웃-index.html*/
 #header {}
 #contents {}
+#con_topleft {float: left; width: 50%; height: 770px;}
+#con_topright {float: left; width: 50%; height: 770px;}
 #con_bot {
     width: 100%;
     max-width: 900px;
