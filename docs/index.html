@@ -8,14 +8,22 @@
     <meta name="keywords" content="영선갤러리, 갤러리, 미술갤러리">
     <meta name="generator" content="brakets">
     <title>영선갤러리</title>
+    
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:title" content="영선갤러리">
+    <meta property="og:url" content="https://evepoi.github.io/youngsun">
+    <meta property="og:image" content="https://evepoi.github.io/youngsun/img/YSicon.png">
+    <meta property="og:description" content="안녕하세요. 영선갤러리입니다.">
 
     <!--CSS style-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/menu.scss">
     <link rel="stylesheet" href="css/font-awesome.css">
 
-    <!--웹폰트-->
-    <link href="https://fonts.googleapis.com/css?family=Song+Myung:400" rel="stylesheet">
+    <!--폰트-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
 
     <!-- 파비콘-->
     <link rel="shortcut icon" href="img/YSicon.png">
@@ -41,8 +49,10 @@
         <h1>영선갤러리</h1>
             <ul>
                 <li><a href="#section1">News</a></li>
-                <li><a href="#section2">전시정보</a></li>
-                <li><a href="#section3">Art sale</a></li>
+                <li><a href="#section2">전시</a></li>
+                <li><a href="#section3">작품</a></li>
+                <li><a href="#section4">특강</a></li>
+                <li><a href="#section5">문의</a></li>
             </ul>
     </nav>
     <!-- // 전체메뉴-->
@@ -51,50 +61,63 @@
         <div id="contents">
             <div id="section1">
                    <h2>News</h2>
-                 <div class="text">
+                 <div class="news">
                     <h3>
-                        영선갤러리 홈페이지 리뉴얼중 <br> 
+                        영선갤러리 메인 페이지 재구성 중<br>
                     </h3>
                 </div>
             </div>
+    <!-- // News 정보 -->
+           
             <div id="section2">
                 <h2>전시정보</h2>
                 <div class="exh">
-                        <img src="img/exh_main.jpg" alt="중견작가 소품전">
+                        <img src="img/exh_main.jpg" alt="중견작가 소품전"><img src="img/exh_main2.jpg" alt="중견작가 소품전">
                     </div>
-                </div>
-            <div id="section3">
-                <h2>Art Sale</h2>
-                <article class="artsale">
-                        <h5>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(LL)%20(2021.1.1).pdf">레레작가 판매리스트 (2021년 1월 1일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(LHS)%20(2020.12.28).pdf">이훈상작가 판매리스트 (2020년 12월 28일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(Youngsun)%202.%20MHG(2020.12.18).pdf">문홍규 작가 판매리스트 (2020년 12월 18일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(Youngsun)%204.%20JKS(2020.12.18).pdf">정규석 작가 판매리스트 (2020년 12월 18일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(Youngsun)%205.%20COR(2020.12.18).pdf">최영란 작가 판매리스트 (2020년 12월 18일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(Youngsun)%201.%20some(2020.12.18).pdf">판매리스트 (2020년 12월 18일 기준)</a><br>
-                        <a href="https://github.com/evepoi/minengallery/raw/minengallery/docs/artsale%20list/Artsale%20List%20(MTU)%20(2020.12.8).pdf">마음터치 우주작가 판매리스트 (2020년 12월 8일 기준)</a><br><br>
-                        </h5>
-                    </article>
-                    <article class="column col1"><h4>구입과정</h4></article>
-                    <article class="column col2">
-                        <h5>
-                        1. 위 Art Sale 리스트를 보고 구입결정을 합니다.<br>
-                        2. 민은갤러리로 작품 판매여부를 확인합니다.<br>
-                        3. 구입시 아래 계좌번호로 입금합니다.<br>
-                        4. 확인후 배송 진행합니다.<br>
-                        ※ 작품의 액자가 되어 있을시, 액자 상태 그대로 배송되며, 액자가 없을시 별도로 제작하셔야됩니다. 액자 제작시 수원갤러리로 문의바랍니다.<br><br>
-                        </h5>
-                    </article>
-                    <article class="column col1"><h4>민은갤러리 문의정보</h4></article>
-                    <article class="column col2">
-                        <h5>
-                        전화번호 : 031-212-2813 / 카카오톡 : 민은갤러리<br>
-                        메일주소 : minengallery@naver.com<br>
-                        계좌번호 : 신한은행 / 110-498-845942 / 김정민(민은갤러리)<br><br>
-                        </h5>
-                    </article>
             </div>
+    <!-- // 전시정보  -->
+
+           <div id="section3">
+                <h2>작품</h2>
+                <div class="art">
+                        <h3>
+                        업로드 예정 (준비중)<br>
+                    </h3>
+                </div>
+            </div>
+    <!-- // 작품정보  -->
+
+           <div id="section4">
+                <h2>특강</h2>
+                <div class="youtube">
+                        <h3>
+                        업로드 예정 (준비중)<br>
+                    </h3>
+                </div>
+            </div>
+    <!-- // 특강정보  -->
+                      
+           <div id="section5">
+                <h2>문의</h2>
+                <div class="map">
+                    <h3>
+                        (주소 이미지 업로드 예정)<br>
+                        주소 : 경기 수원시 영통구 덕영대로 1471번길 59<br>
+                        전화 : 031-203-1089<br>
+                    </h3>
+                </div>
+            </div>
+    <!-- // 문의정보  -->
+       
+            <div id="section6">
+                <h2>제작 및 관리</h2>
+                <div class="footer">
+                    <h3>
+                        민은갤러리<br>
+                    </h3>
+                </div>
+            </div>
+    <!-- // 문의정보  -->
         </div>
    </main>
     <!-- // 컨텐츠
@@ -104,18 +127,7 @@
     column col4 : 작품이미지
     column col5 : 유튜브 영상 제목, 작품이미지-->
     
-    <footer id="footer">
-        <div class="container">
-            <div class="footer">
-                <h2>사이트 제작＆관리 : 민은갤러리<br>
-                수원갤러리 <a href="http://www.suwongallery.com">(www.suwongallery.com)</a><br>
-                영선갤러리 <a href="http://www.youngsungallery.com">(www.youngsungallery.com)</a></h2><br><br>
-            </div>            
-        </div>
-    </footer>
-    <!-- // footer-->
-        
-    <!-- JavaScript Libraries -->
+  <!-- JavaScript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script>
@@ -132,5 +144,13 @@
             $("html,body").animate({ scrollTop:offset },600,"easeInOutExpo");
         });
     </script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                        "timestamp" : "1598459636625",
+                        "key" : "2zsee",
+                        "mapHeight" : "600"
+                        }).render();
+                    </script>
 </body>
 </html>

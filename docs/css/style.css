@@ -2,15 +2,15 @@
 
 /* 레이아웃 */
 #nav {position: fixed; left: 0; top: 0; width: 100%; background-color: rgba(255,255,255,0.3);}
-#nav h1 {float: left; font-size: 40px; padding: 5px 5px 5px 15px; font-family: 'Abel' }
+#nav h1 {float: left; font-size: 40px; padding: 5px 5px 5px 50px;}
 #nav ul {float: right; padding-right: 10px; }
 #nav ul li {display: inline; }
-#nav ul li a {display: inline-block; padding: 20px 15px; font-weight: bold; font-family: 'Abel'; text-transform: capitalize;}
+#nav ul li a {display: inline-block; padding: 20px 15px; font-weight: bold; text-transform: capitalize;}
 
 #contents {text-align: center;}
 #contents > div {padding: 0 0 50px 0;}
 #contents > div h2 {padding: 60px 0 10px 0; font-size: 40px; font-weight: 30px; text-transform: uppercase;}
-#contents > div h2 strong {font-weight: 100px ; font-style: italic;}
+#contents > div h2 strong {font-weight: 100px;}
 
 /* 내용*/
 /*column col1 : 내용
@@ -19,9 +19,24 @@ column col3 : 유튜브 영상링크
 column col4 : 작품이미지
 column col5 : 유튜브 영상 제목, 작품이미지 */
 
-.text {position: relative; text-align: left;}
-.text h3 {text-align: center; padding: 0 0 0 30px; font-size: 2em;}
+.news {text-align: left;}
+.news h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+
 .exh {width: 100%; height: auto;}
+
+.art {text-align: left;}
+.art h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+
+.youtube {position: relative; text-align: left;}
+.youtube h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+
+.map {text-align: left;}
+.map h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+
+.footer {text-align: left;}
+.footer h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+
+
 .artsale {}
 .artsale h5 {text-align: center; padding: 0 0 0 30px; font-size: 20px;}
 
@@ -50,47 +65,3 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .column.col5 {}
 .column.col5 h4 {font-size: 30px;}
 .column.col5 h5 {font-size: 15px;}
-
-/* 하단내용*/
-.container .footer h2 {text-align: center; font-size: 20px;}
-
-/* mediaquery */
-/* 화면 너비 0 ~ 1200px */
-@media (max-width: 1220px) {
-    .container {width: 100%;}
-    .row {padding: 15 15px;}
-    #daumRoughmapContainer1598459636625 script {mapWidth: 100%; height: auto;}
-}
-
-/* 화면 너비 0 ~ 1024px */
-@media (max-width: 1024px) {
-    #con_topleft {float: none; width: 100%; height: auto; text-align: center;}
-    #con_topright {float: none; width: 100%; height: auto; text-align: center;}
-    #con_left {float: none; width: 100%; height: auto; text-align: center;}
-    #con_right {float: none; width: 100%; height: auto; text-align: center;}
-}
-
-/* 화면 너비-테블릿 0 ~ 960px */
-@media (max-width: 960px) {
-}
-
-/* 화면 너비-테블릿 0 ~ 768px */
-@media (max-width: 768px) {
-    .nav > div li {width: 48%; margin: 1%;}
-}
-
-/* 화면 너비-테블릿 0 ~ 520px */
-@media (max-width: 520px) {
-    .column.col4 img {width: 100%; height: auto;}
-    .column.col5 img {width: 100%; height: auto;}
-}
-
-/* 화면 너비-모바일 0 ~ 480px */
-@media (max-width: 480px) {
-    .nav > div li {width: 100%;}
-}
-
-/* 화면 너비-모바일 0 ~ 420px */
-@media (max-width: 420px) {
-    .header a img {width: 100%; height: auto;}
-}
