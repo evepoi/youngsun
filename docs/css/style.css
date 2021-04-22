@@ -91,9 +91,13 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .column.col5 h5 {font-size: 15px;}
 
 /* mediaquery */
-@media (max-width:1200px){
+@media (max-width:1280px){
     .container {width: 100%}
     .youtube .sec4_con iframe {width: 750px; height: 450px;}
+}
+
+@media (max-width:960px){
+    
 }
 @media (max-width:800px){
     #nav .menu {display: none;}
@@ -105,5 +109,11 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     #nav .menu li.active {background-color: rgba(255,255,255,0.3);}
     
     #contents > div h2 {font-size: 6vw; font-weight: 300;}
+    .youtube .sec4_con iframe {width: 450px; height: 250px;}
 }
-
+@media (max-width:768px){}
+@media (max-width:600px){
+    .youtube .sec4_con iframe {width: 280px; height: 180px;}
+}
+@media (max-width:480px){}
+@media (max-width:320px){}
