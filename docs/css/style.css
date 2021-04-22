@@ -44,7 +44,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 /* 전시 영역 */
 
-.exh {width: 100%; height: auto;}
+.exh {width: 100%; text-align: center; display: inline-block;}
 
 .art {text-align: left;}
 .art h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
@@ -92,13 +92,16 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 /* mediaquery */
 @media (max-width:1280px){
-    .container {width: 100%}
+    .news {width: 900px;text-align: center;display: inline-block;}
+    .exh img {width: 500px ; text-align: center; display: inline-block;}
+    .container {width: 100%;}
     .youtube .sec4_con iframe {width: 750px; height: 450px;}
 }
 
 @media (max-width:960px){
-    
-}
+    .news {width: 760px;}
+    }
+
 @media (max-width:800px){
     #nav .menu {display: none;}
     #nav .mNav {display: block;}
@@ -108,12 +111,24 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     #nav .menu li {width: 100%; display: inline-block;}
     #nav .menu li.active {background-color: rgba(255,255,255,0.3);}
     
-    #contents > div h2 {font-size: 6vw; font-weight: 300;}
+    #contents > div h2 {font-size: 2em; font-weight: 300;}
+    
+    .news {width: 500px;}
+    .news h3 {font-size: 1em;}
     .youtube .sec4_con iframe {width: 450px; height: 250px;}
 }
-@media (max-width:768px){}
+@media (max-width:768px){
+   
+}
 @media (max-width:600px){
+     .news {width: 450px;}
+     .exh img {width: 450px;}
     .youtube .sec4_con iframe {width: 280px; height: 180px;}
 }
-@media (max-width:480px){}
-@media (max-width:320px){}
+@media (max-width:480px){
+    .news {width: 280px;}
+    .exh img {width: 300px;}
+}
+@media (max-width:320px){
+    
+}
