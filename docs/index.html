@@ -18,12 +18,12 @@
     <!--CSS style-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="scss/menu.scss">
+    <link rel="stylesheet" href="scss/slick.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 
     <!--폰트-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
 
     <!-- 파비콘-->
     <link rel="shortcut icon" href="img/YSicon.png">
@@ -102,9 +102,13 @@
            <div id="section3">
                 <h2>art</h2>
                 <div class="art">
-                        <h3>
-                        업로드 예정 (준비중)<br>
-                    </h3>
+                <!-- 이미지 슬라이드 -->
+                    <div class="slider">
+                        <div><img src="img/Art%20001.jpg" alt="이미지1"></div>
+                        <div><img src="img/Art%20002.jpg" alt="이미지2"></div>
+                        <div><img src="img/Art%20003.JPG" alt="이미지3"></div>
+                    </div>
+                        <!-- //이미지 슬라이드 -->
                 </div>
             </div>
     <!-- // 작품정보  -->
@@ -166,9 +170,10 @@
     column col5 : 유튜브 영상 제목, 작품이미지-->
     
   <!-- JavaScript Libraries -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script>
+    <script src="js/slick.min.js"></script>
+    <script>
         var nav = $("#nav ul li");
         var cont = $("#contents > div");
 
@@ -238,5 +243,23 @@
                         "mapHeight" : "400"
                         }).render();
                     </script>
+        <script>
+        //이미지 슬라이더
+        $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        dots: false
+                        }
+                }
+            ]
+        });
+    </script>
 </body>
 </html>
