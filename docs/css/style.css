@@ -14,7 +14,7 @@
 .icon-wrap {padding-left: 10px;}
 .icon-wrap .icon, 
 .icon-wrap .icon:before, 
-.icon-wrap .icon:after {width: 45px; height: 4px; background: #fff;}
+.icon-wrap .icon:after {width: 45px; height: 4px;}
 .icon-wrap .icon {position: relative; margin-top:20px;}
 .icon-wrap .icon:before {content:'';position: absolute; left: 0; bottom: 10px; }
 .icon-wrap .icon:after {content:''; position: absolute; left: 0; top: 10px;}
