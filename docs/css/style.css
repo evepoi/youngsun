@@ -115,6 +115,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     
     .news {width: 500px;}
     .news h3 {font-size: 1em;}
+    .art h3 {font-size: 1em;}
     .youtube h3 {font-size: 1em;}
     .youtube .sec4_con iframe {width: 450px; height: 250px;}
     .map h3 {font-size: 1em;}
