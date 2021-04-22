@@ -54,7 +54,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .youtube .sec4_con {width: 100%;}
 .youtube .sec4_con iframe{width: 1200px;height: 685px;}
 
-.map {text-align: left;}
+.map {text-align: center;}
 .map h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
 
 .footer {text-align: left;}
