@@ -48,8 +48,8 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 .exh {width: 100%; text-align: center; display: inline-block;}
 
-.art {text-align: left;}
-.art h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
+.art {text-align:center;}
+.art h3 {text-align: center; padding: 0 0 0 50px; font-size: 2em;}
 
 .youtube {}
 .youtube h3 {text-align: center; font-size: 2em;}
