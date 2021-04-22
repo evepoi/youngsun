@@ -57,8 +57,6 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .map h3 {text-align: left; padding: 0 0 0 50px; font-size: 2em;}
 
 .art {text-align:center; width: 1200px;}
-.art .overflow {text-align: center; display: inline-block; width:1000px; height:600px;}
-.art iframe {width: 1000px; height: 500px;}
 .art h3 {text-align: center; padding: 0 0 0 50px; font-size: 2em;}
 
 .footer {text-align: center;}
@@ -76,6 +74,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     
 @media (max-width:960px){
     .news {width: 760px;}
+     .art iframe {width: 700px; height: 300px;}
     }
 
 @media (max-width:800px){
