@@ -26,10 +26,3 @@ h1, h2, h3, h4, h5, h6 {font-size: 13px; font-weight: normal;}
 * {margin:0; padding:0;}
 li {list-style: none;}
 a {text-decoration: none;}
-
-@font-face {
-    font-family: '국립박물관문화재단클래식L';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식L.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
