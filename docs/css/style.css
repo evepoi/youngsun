@@ -76,7 +76,6 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     
 @media (max-width:960px){
     .news {width: 760px;}
-    .art iframe {width: 700px; height: 300px;}
     }
 
 @media (max-width:800px){
@@ -97,28 +96,21 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     .youtube .sec4_con iframe {width: 450px; height: 250px;}
     .map h3 {font-size: 1em;}
     .footer h3 {font-size: 1em;}
-    .art .overflow {width: 600px;display: block;}  
-    .art img {width: 500px;}
+ 
 }
 @media (max-width:768px){
-    .art .overflow {width: 500px;display: block;}  
-    .art img {width: 400px;}
+ 
+ 
 }
 @media (max-width:600px){
      .news {width: 450px;}
      .exh img {width: 450px;}
     .youtube .sec4_con iframe {width: 280px; height: 180px;}
-    .art .overflow {width: 400px;display: block;}  
-    .art img {width: 300px;}
-}
+ }
 @media (max-width:480px){
     .news {width: 280px;}
     .exh img {width: 300px;}
-    .art .overflow {width: 300px;display: block;}  
-    .art img {width: 200px;}
-}
+ }
 @media (max-width:320px){
-    .art .overflow {width: 200px;display: block;}  
-    .art img {width: 100px;}
-}
+ 
 }
