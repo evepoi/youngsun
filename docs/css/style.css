@@ -91,7 +91,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     .news h3 {font-size: 1em;}
     .art h3 {font-size: 1em;}
     .youtube h3 {font-size: 1em;}
-    .youtube .sec4_con iframe {width: 450px; height: 250px;}
+    .youtube .sec3_con iframe {width: 450px; height: 250px;}
     .map h3 {font-size: 1em;}
     .footer h3 {font-size: 1em;}
  
@@ -103,7 +103,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 @media (max-width:600px){
      .news {width: 450px;}
      .exh img {width: 450px;}
-    .youtube .sec4_con iframe {width: 280px; height: 180px;}
+    .youtube .sec3_con iframe {width: 280px; height: 180px;}
  }
 @media (max-width:480px){
     .news {width: 280px;}
