@@ -47,6 +47,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 /* 전시 영역 */
 
 .exh {width: 100%; text-align: center; display: inline-block;}
+.exh h3 {text-align: center; font-size: 2em;}
 
 .youtube {}
 .youtube h3 {text-align: center; font-size: 2em;}
