@@ -29,7 +29,8 @@ column col1 : 제목
 column col2 : News 내용
 column col3 : 유튜브 영상링크
 column col4 : 작가리스트
-column col5 : 유튜브 영상 제목, 작품이미지 */
+column col5 : 유튜브 영상 제목, 작품이미지
+column col6 : 이미지 */
 
 .column {text-align: center;}
 .column.col1 {}
@@ -61,7 +62,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .column.col5 h4 {font-size: 15px;}
 .column.col5 h5 {font-size: 15px;}
 .column.col6 h5 {text-align: left; font-size: 10px;}
-.column.col6 a {text-align: left; font-size: 10px;}
+.column.col6 img {text-align: center; width: 100%;}
 
 /* 하단내용*/
 .container .footer h2 {text-align: center; font-size: 20px;}
