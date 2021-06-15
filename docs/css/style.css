@@ -96,6 +96,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 /* 화면너비 0~480px */
 @media (max-width: 480px){
+    .nav .li a {font-size: 15px;}
 }
 
 /* 화면너비 0~320px */
