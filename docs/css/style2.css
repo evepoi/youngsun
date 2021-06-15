@@ -4,6 +4,7 @@
 /* nav */
 #nav {position: fixed; left: 0; top: 0; width: 100%; background-color: rgba(255,255,255,0.3);}
 #nav h1 {float: left; font-size: 40px; padding: 5px 5px 5px 15px;}
+#nav h2 {float: left; font-size: 20px; padding: 5px 5px 5px 15px;}
 #nav .menu {float: right; padding-right: 10px; }
 #nav .menu li {display: inline; }
 #nav .menu li a {display: inline-block; padding: 20px 15px; font-weight: bold;text-transform: capitalize;}
