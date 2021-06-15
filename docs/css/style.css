@@ -7,5 +7,7 @@
 .container {width: 1200px; margin: 0 auto;}
 
 /*헤더 */
-.header{height: 80px;}
+.header{height: 90px;}
 .header h1{font-size: 40px;}
+.header .header_mume {text-align: center;}
+.header .header_mume a {padding: 5px 5px 5px 15px; font-size: 20px;}
