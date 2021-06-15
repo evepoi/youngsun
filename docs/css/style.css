@@ -7,7 +7,12 @@
 .container {width: 1200px; margin: 0 auto;}
 
 /*헤더 */
-.header{height: 90px;}
-.header h1{font-size: 40px;}
-.header .header_mume {text-align: center;}
-.header .header_mume a {padding: 5px 5px 5px 15px; font-size: 20px;}
+.header {height: 80px;}
+.header h1 {font-size: 40px;}
+
+/* 메뉴 */
+.nav {overflow: hidden; padding: 20px 0;}
+.nav > div {text-align: center;}
+.nav > div li {float: left; width: 18%; margin: 1%;}
+.nav > div li a {display: inline-block; transition: color 0.5s ease; font-size: 30px;}
+.nav > div li a:hover {color:#827717;}
