@@ -53,6 +53,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
     height: 100%;
 }
 .column.col4 {width: 100%;height: auto;}
+.column.col4 a{font-size: 30px;}
 .column.col5 {}
 .column.col5 h4 {font-size: 30px;}
 .column.col5 h5 {font-size: 15px;}
