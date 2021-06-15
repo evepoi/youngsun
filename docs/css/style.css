@@ -1,1 +1,11 @@
 @charset "utf-8";
+
+/* 레이아웃 */
+#header {}
+
+/*컨테이너 */
+.container {width: 1200px; margin: 0 auto;}
+
+/*헤더 */
+.header{height: 80px;}
+.header h1{font-size: 40px;}
