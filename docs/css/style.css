@@ -36,7 +36,7 @@ column col5 : 이미지, 영상설명 */
 .column.col1 h2 {font-size: 30px;}
 .column.col2 {padding-bottom: 20px;}
 .column.col2 h3 {text-align: left; font-size: 25px;}
-.column.col2 h4 {text-align: left; font-size: 20px;}
+.column.col2 h4 {text-align: right; font-size: 15px;}
 .column.col2 div {width: 100%;}
 .column.col3 {
     position: relative;
