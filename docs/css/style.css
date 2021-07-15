@@ -65,7 +65,7 @@ column col5 : 이미지, 영상설명 */
 .column.col6 {overflow: hidden; padding: 20px 0;}
 .column.col6 > div {text-align: center;}
 .column.col6 > div li {float: left; width: 14%; margin: 1%;}
-.column.col6 > div li a {display: inline-block; transition: color 0.5s ease; font-size: 30px;}
+.column.col6 > div li a {display: inline-block; transition: color 0.5s ease; font-size: 20px;}
 .column.col6 > div li a:hover {color:#827717;}
 
 /* 하단내용*/
